@@ -1,6 +1,6 @@
 package org.testng;
 
-public class ToolsQA_Constants {
+public class ToolsQA_Constants {   
 	 
 	 public static final String urlQA = "http://store.demoqa.com/";
 	 public static final String ChromeDriver_Path = "C:\\Users\\Lap\\eclipse-workspace\\SeleniumPro\\driver\\chromedriver.exe";

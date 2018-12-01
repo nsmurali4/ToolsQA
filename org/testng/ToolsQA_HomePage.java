@@ -20,7 +20,7 @@ public class ToolsQA_HomePage extends ToolsQA_BasePage{
 	
 		ToolsQA_LoginPage loginpage = new ToolsQA_LoginPage(driver);
 		PageFactory.initElements(driver, loginpage);
-		return loginpage; 
-		
+		return loginpage;  
+		 
 	}
 }

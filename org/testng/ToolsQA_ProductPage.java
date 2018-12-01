@@ -13,8 +13,8 @@ public class ToolsQA_ProductPage extends ToolsQA_BasePage{
 		  
 		  ToolsQA_ProductPage productpage = new ToolsQA_ProductPage(driver);
 		  PageFactory.initElements(driver, productpage);
-		  return productpage;
-		 }
+		  return productpage; 
+		 } 
 
 		}
 	
