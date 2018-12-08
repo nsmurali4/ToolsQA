@@ -12,13 +12,20 @@ import org.testng.annotations.Test;
 		 @Test
 		  public void doLogin() throws InterruptedException{
 			  
-			 init(ToolsQA_Constants.browserType);
+			  init(ToolsQA_Constants.browserType);
+			  
 			  ToolsQA_LaunchPage launchPage =new ToolsQA_LaunchPage(driver);
 			  PageFactory.initElements(driver, launchPage);
+			  
 			  ToolsQA_HomePage loginPage = launchPage.gotohomePage(); 
 			  Object page=loginPage.myAccount();
+			  
 			  ToolsQA_LoginPage productpage = (ToolsQA_LoginPage)page;
-			  page=productpage.doLogin("Ramadoss", "murali");  
+			  page=productpage.doLogin("Murali.N", "store.demoqa.com");
+			  
+			  ToolsQA_ProductPage pp = productpage.
+			  Object page1=pp.
+			  
 			     
 			 } 
 			} 

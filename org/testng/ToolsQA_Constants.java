@@ -10,5 +10,6 @@ public class ToolsQA_Constants {
 	 public static final String UserName ="log";
 	 public static final String Password ="pwd";
 	 public static final String Login ="login";
-	 
+	 public static final String prodCategory ="//*[@id=\"menu-item-37\"]/a/text()";
+	
 }
