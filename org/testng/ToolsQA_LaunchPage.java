@@ -15,6 +15,6 @@ public class ToolsQA_LaunchPage extends ToolsQA_BasePage{
 		
 		ToolsQA_HomePage homepage = new ToolsQA_HomePage(driver);
 		PageFactory.initElements(driver, homepage);
-		return homepage; 
+		return homepage;     
 	}
 }

@@ -19,13 +19,14 @@ public class ToolsQA_LoginPage extends ToolsQA_BasePage {
 	 }
 	  
 	 public ToolsQA_ProductPage doLogin(String username, String password){
-	 uname.sendKeys(username);
+	 uname.sendKeys(username); 
 	 pword.sendKeys(password);
 	 submit.click();
+	 
 	 ToolsQA_ProductPage productPage = new ToolsQA_ProductPage(driver);
 	 PageFactory.initElements(driver, productPage);
-	 return productPage; 
-	  
+	 return productPage;   
+	   
 	 }	  
 }
 
